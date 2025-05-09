@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_signps",
+  "info": {
+    "singularName": "newsletter-signp",
+    "pluralName": "newsletter-signps",
+    "displayName": "Newsletter Signp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  }
+}
